@@ -1,0 +1,213 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('https://www.freecodecamp.org/news/content/images/size/w2000/2022/09/jonatan-pie-3l3RwQdHRHg-unsplash.jpg') no-repeat center center fixed;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+
+.sign-up-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.sign-up-form {
+  background: rgba(255, 255, 255, 0.15); /* Semi-transparent background */
+  border-radius: 10px;
+  padding: 40px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px); /* Glass effect */
+  -webkit-backdrop-filter: blur(10px); /* Glass effect for older browsers */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Transparent border */
+  color: white;
+}
+
+.sign-up-form h2 {
+  margin-bottom: 20px;
+}
+
+.sign-up-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.sign-up-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.3); /* Light color for form fields */
+  color: #070214; /* Dark text color */
+}
+
+.sign-up-form button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50; /* Green button color */
+  color: white;
+  cursor: pointer;
+}
+
+.sign-up-form  button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+.sign-up-form p {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.sign-up-form a {
+  color: #4CAF50;
+}
+
+.sign-up-form a:hover {
+  color: #45a049;
+}
+
+
+.sign-up-form input::placeholder {
+  color: rgba(255, 255, 255, 0.7); /* Placeholder text color */
+}
+.dashboard-container {
+
+  color: #fff; /* White text color */
+}
+
+.dashboard-content {
+  position: relative;
+  z-index: 1; /* Ensure content is above the glass background */
+  text-align: center;
+}
+
+.dashboard-content h1 {
+  font-size: 3rem; /* Larger font size for h1 */
+  color: #45a049; /* Green text color */
+}
+
+.dashboard-content p {
+  font-size: 1.5rem; /* Larger font size for paragraph */
+}
+
+.logout-button {
+  position: absolute;
+  bottom: 20px; /* Adjust bottom position */
+  left: 50%;
+  transform: translateX(-50%); /* Center the button horizontally */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #45a049; /* Green button color */
+  color: white;
+  cursor: pointer;
+  font-size: 1rem; /* Adjust font size */
+}
+
+.logout-button:hover {
+  background-color: #3a8542; /* Darker green on hover */
+}
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+  color: #333333; /* Dark grey text color */
+}
+
+.home-title {
+  font-size: 4rem;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.home-button {
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #45a049; /* Green button color */
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.home-button:hover {
+  background-color: #3a8542; /* Darker green on hover */
+}
+.forgot-password-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  background-size: cover;
+  color: #fff; /* White text color */
+}
+
+.forgot-password-form {
+  background: rgba(255, 255, 255, 0.2); /* Semi-transparent white background for glass effect */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.forgot-password-form h2 {
+  font-size: 2rem; /* Larger font size for h2 */
+  color: #45a049; /* Green text color */
+}
+
+.forgot-password-form label {
+  display: block;
+  margin: 10px 0 5px;
+  font-size: 1.2rem;
+}
+
+.forgot-password-form input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #333; /* Dark text color */
+  background-color: #fff; /* White background for input */
+}
+
+.forgot-password-form input::placeholder {
+  color: #bbb; /* Light gray placeholder text */
+}
+
+.forgot-password-form button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #45a049; /* Green button color */
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.forgot-password-form button:hover {
+  background-color: #3a8542; /* Darker green on hover */
+}
